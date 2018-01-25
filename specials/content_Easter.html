@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>Menu Content</title>
+
+</head>
+<style type="text/css">
+.style1 {
+	text-align: center;
+	font-size: 9pt;
+	font-family: Arial;
+	margin-bottom: 5px;
+}
+.style2 {
+	text-align: center;
+	font-size: 16pt;
+	font-family: Arial;
+	margin-bottom: 6px;
+}
+.style3 {
+	text-align: center;
+	font-size: 14pt;
+	font-family: Arial;
+	margin-bottom: 6px;
+}
+.style10 {
+	font-family: "Arial Black";
+	font-size: 12pt;
+}
+
+table.curvedEdges { 
+	border:4px solid grey;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	background-color:#d9d9d9;
+	vertical-align: middle;
+	text-align:center;
+}
+table.curvedEdges1 { 
+	border:4px solid blue;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	background-color:#FFFCFC;
+	vertical-align: middle;
+	text-align:center;
+}
+
+</style>
+<script src="css/jquery-1.3.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="css/blink.js" language="javscript" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+	$(document).ready(function() { $('.style10').blink(); });
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+</script>
+
+<body style="background-color: #F9E8CA">
+
+<center>
+<table style="width: 35%" align="center" class="curvedEdges1">
+	<tr >
+		<td style="height: 80px; width: 500px;">
+		<a class="style10">
+		<span style="color:red"><strong>BEAT&nbsp; THE&nbsp; CLOCK</strong></span><br /> </a>
+		<a class="style1">
+		<span >Monday &amp; Tuesday&nbsp; 5 PM. - 8 PM.</span><br />
+		<span><strong>LARGE CHEESE PIZZA</strong></span><br />
+		<span><span class="style31">** TIME YOU CALL IS THE PRICE YOU PAY **</span><br />
+		<span>Add $1.50 Per Topping</span></span></a>
+		</td>
+	</tr>
+</table>
+</center>
+<p> </p>
+
+<center>
+
+<table>
+<td width=25% align=center>
+	<a class="style2" style="color:green"> <strong> Happy Easter! </strong></a>
+	<br/>
+	<a class="style2" style="color:green"> <strong> From Ciao's Family </strong></a>
+	<br/> <br/> <br/>
+	<a class="style2" style="color:red"> <strong> Open on Easter Sunday</strong> </a>
+	<br/> <br/>
+	<a class="style3"> <strong> 12:00 PM - 9:00 PM </strong> </a>
+</td>
+
+<td width="50%">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+//set image paths
+src = [ "images/slide/img1.jpg", "images/slide/img2.jpg",
+	"images/slide/img3.jpg", "images/slide/img4.JPG", "images/slide/img5.JPG", 
+	"images/slide/img6.JPG", "images/slide/img7.JPG", "images/slide/img8.jpg", 
+	"images/slide/img9.JPG", "images/slide/img10.JPG","images/slide/img11.JPG",
+	"images/slide/img12.JPG", "images/slide/img13.JPG",	"images/slide/img14.JPG",
+	"images/slide/img15.JPG", "images/slide/img16.JPG", "images/slide/img17.JPG",
+	"images/slide/img18.JPG", "images/slide/img19.JPG", "images/slide/img20.JPG",
+	"images/slide/img21.JPG", "images/slide/img22.jpg", "images/slide/img23.jpg",
+	"images/slide/img24.jpg", "images/slide/img25.jpg", "images/slide/img26.JPG",
+	"images/slide/img27.JPG", "images/slide/img28.JPG"
+	]
+
+//set duration for each image
+duration = 3;
+//Please do not edit below
+ads=[]; ct=0;
+function switchAd() {
+var n=(ct+1)%src.length;
+if (ads[n] && (ads[n].complete || ads[n].complete==null)) {
+document["Ad_Image"].src = ads[ct=n].src;
+}
+ads[n=(ct+1)%src.length] = new Image;
+ads[n].src = src[n];
+setTimeout("switchAd()",duration*1000);
+}
+function doLink(){
+location.href = url[ct];
+} onload = function(){
+if (document.images)
+switchAd();
+}
+//-->
+</SCRIPT>
+
+<a HREF="javascript:doLink();" onMouseOver="status=url[ct];return true;" onMouseOut="status=''">
+	<img name="Ad_Image" src="images/slide/img1.jpg" border=0> </img>
+</a>
+</td>
+
+<td width=25% align=center>
+	<a class="style2" style="color:green"> <strong> Happy Easter! </strong></a>
+	<br/>
+	<a class="style2" style="color:green"> <strong> From Ciao's Family </strong></a>
+	<br/> <br/> <br/>
+	<a class="style2" style="color:red"> <strong> Open on Easter Sunday</strong> </a>
+	<br/> <br/>
+	<a class="style3"> <strong> 12:00 PM - 9:00 PM </strong> </a>
+</td>
+
+</table>
+<br/>
+
+<table class="curvedEdges">
+	<tr> <td></td> </tr>
+	<tr> 
+		<td></td>
+		<td> <a class="style1" style="color:blue"><strong> &nbsp;Hours: &nbsp;</strong></a> </td>
+		<td> <a class="style1" >Monday - Wednesday:</a> </td>
+		<td> <a class="style1">10 am&nbsp;-&nbsp;10 pm</a> </td>
+		<td></td>
+	</tr>
+	<tr> <td></td>
+		<td>	<a class="style1">&nbsp;</a>	</td>
+		<td>	<a class="style1">Thursday - Saturday:</a>	</td>
+		<td>	<a class="style1">10 am&nbsp;- 11 pm</a>	</td>
+		<td></td>
+	</tr>
+	<tr> <td></td>
+		<td style="height: 5px"> <a class="style1">&nbsp;</a> </td>
+		<td style="height: 5px"> <a class="style1">Sunday:</a> </td>
+		<td  style="height: 5px"> <a class="style1">11 am&nbsp;- 10 pm</a> </td>
+		<td></td>
+	</tr>
+	<tr> <td></td> </tr>
+</table>
+
+<p> </p>
+<div id="footer">
+	<p> <font size="2"> Copyright @ Ciaos Pizza and Subs, Inc. </font> </p>
+</div>
+
+</center>
+
+</body>
+</html>
