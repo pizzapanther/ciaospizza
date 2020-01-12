@@ -57,8 +57,8 @@
 .primary_header {
 	width: 100%;
 	background-color: #EE1A44;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 1px;
+	padding-bottom: 0px;
 	clear: left;
 	border-bottom: 2px solid #2C9AB7;
 }
@@ -172,7 +172,7 @@
     font-family: "Source Sans Pro";
     text-align: center;
     color: #FFFFFF;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 .placeholder {
     /* [disabled]max-width: 400px;
@@ -202,8 +202,8 @@
 	font-weight: bold;
 }
 .column_title {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .copyright {
 	text-align: center;
@@ -308,7 +308,7 @@ body {
 }
 }
 
-@media (min-width: 321px) and (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 700px) {
 .secondary_header ul li {
 	float: none;
 	margin-top: 28px;
