@@ -56,11 +56,11 @@
 }
 .primary_header {
 	width: 100%;
-	background-color: #EE1A44;
+	background-color: rgba(254,0,0,1.00);
 	padding-top: 1px;
 	padding-bottom: 0px;
 	clear: left;
-	border-bottom: 2px solid #2C9AB7;
+	border-bottom: 2px solid #015A07;
 }
 .secondary_header {
 	width: 100%;
