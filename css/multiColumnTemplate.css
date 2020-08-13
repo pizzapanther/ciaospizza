@@ -16,6 +16,7 @@
 
 .container {
 	background-color: #FFFFFF;
+	max-width: 768px;
 	width: 96%;
 	margin-left: auto;
 	margin-right: auto;
