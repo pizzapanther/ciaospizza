@@ -1,24 +1,7 @@
 @charset "UTF-8";
-
-.header1 {
-	background-color: #FE0000;
-	max-width: 760px;
-	width: 100%;
-	height: 100px;
-}	
-.logo1 {
- 
-	float: left;
-}
-.logo2 {
-
-	float: right;
-}
-
 .container {
 	background-color: #FFFFFF;
-	max-width: 760px;
-	width:100%;
+	width: 96%;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom-width: 0px;
