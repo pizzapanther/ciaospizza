@@ -3,23 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=4">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title> Ciao's Pizza - Nashua NH </title>
-<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="css/template.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 h1 {
-    font-size: 32px;
+    font-size: 24px;
 }
 h4 {
     font-size: 20px;
+	text-align: center;
 }
 body,td,th {
     font-size: 18px;
 }
 tbody,td,th {
-    font-size: 20px;
+    font-size: 14px;
 	padding: 5px;
 }
+
 </style>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,24 +33,24 @@ tbody,td,th {
     
 <body>
 <div class="container">
-  <header>
-    <div class="primary_header">
+  <header class="primary_header">
       <h1 class="title">
 		  <div align="center"> 
-              <img src="images/titleA.jpg" width="451" height="99" alt=""/>
-			  <img src="images/title-A.jpg" width="427" height="90"  alt=""/>
+              <img align="left" src="images/titleA.jpg" width="320" height="100" alt=""/>
+			  <img  src="images/title-A.jpg" width="320" height="100" alt=""/>
 		  </div>
 		</h1>
-    </div>
-    <nav class="secondary_header" id="menu">
-      <ul>
-        <li> <a href="index.html" style="text-decoration: none;" > HOME </a> </li>
-        <li> <a href="menu.html" style="text-decoration: none;" > MENU  </a> </li>
-        <li> <a href="coupon.html" style="text-decoration: none;" > COUPON </a> </li> 
-		<li> <a href="contact.html"  style="text-decoration: none;" > CONTACT </a></li>
-	</ul>
-    </nav>
+    <nav class="secondary_header" id ="menu">
+          <ul>
+            <li> <a href="index.html" style="text-decoration: none;" > HOME&nbsp;</a> </li>
+            <li> <a href="menu.html" style="text-decoration: none;" target="top" > MENU &nbsp; </a> </li>
+            <li> <a href="coupon.html" style="text-decoration: none;" > COUPON &nbsp;</a> </li> 
+            <li> <a href="contact.html"  style="text-decoration: none;" > &nbsp; CONTACT </a></li>
+			<li> <a style="font-size:12px" href="tel:6038893111">Call us at 603-889-3111</a> </li>
+          </ul>	  
+	  </nav>
   </header>
+</div>
 
  <section>
     <h2 class="noDisplay">Main Content</h2>
@@ -57,16 +59,19 @@ tbody,td,th {
 <center>
 <table>
 	<div> 
-		<img src="images/logoM.jpg" alt="" width="546" height="246" />
+		<img src="images/logoM.jpg" alt="" />
 	</div> 
+	<br>
+	<img src="images/phone.png" alt="" />&nbsp;
+	<a href="tel:6038893111">Call us at 603-889-3111</a>&nbsp;
+	<img src="images/phone.png" alt="" />&nbsp;
 </table>
 </center>
-<br>
 <br>
 
 <center>
 <h1 style="color:red"> Open 7 Days a Week </h1>
-<table width="600" border="1" >
+<table  border="1" >
 
   <tbody>
     <tr align="center" >
@@ -89,12 +94,15 @@ tbody,td,th {
 <br>
 </section>
 
- <br>  <footer class="secondary_header footer">
+ <br>  
+ <center>
+ <footer class="secondary_header footer">
     <div class="copyright"> <strong>Copyright &copy;Ciao's Pizza and Subs, Inc.</strong>
 	 &nbsp;&nbsp;&nbsp;&nbsp; Serving you since 1988 
 	</div>
   </footer>
-    
+   </center>
+	
 </div>
 </body>
 </html>
